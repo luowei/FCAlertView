@@ -31,6 +31,14 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		74A2636F01F000E634F9B225 /* Pods_FCAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321D7F606A0D672B57AFD6A9 /* Pods_FCAlertView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		EA7BB8BD25F9351C00557232 /* alert-round.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BB8B325F9351C00557232 /* alert-round.png */; };
+		EA7BB8BE25F9351C00557232 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = EA7BB8B425F9351C00557232 /* .gitkeep */; };
+		EA7BB8BF25F9351C00557232 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BB8B525F9351C00557232 /* heart.png */; };
+		EA7BB8C025F9351C00557232 /* close-round.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BB8B625F9351C00557232 /* close-round.png */; };
+		EA7BB8C125F9351C00557232 /* checkmark-round.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BB8B725F9351C00557232 /* checkmark-round.png */; };
+		EA7BB8C225F9351C00557232 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = EA7BB8B825F9351C00557232 /* star.png */; };
+		EA7BB8C325F9351C00557232 /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7BB8BA25F9351C00557232 /* FCAlertView.m */; };
+		EA7BB8C525F9351C00557232 /* FCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7BB8BC25F9351C00557232 /* FCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD17C84B2D7E76D07647FCEC /* Pods_FCAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D681312A3BE2676E2230ECFE /* Pods_FCAlertView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +92,16 @@
 		90FD05C97774A17E9EBCE89E /* FCAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FCAlertView.podspec; path = ../FCAlertView.podspec; sourceTree = "<group>"; };
 		CFB214F5045001FCE1FECCFE /* Pods-FCAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCAlertView_Example/Pods-FCAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D681312A3BE2676E2230ECFE /* Pods_FCAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BB88925F9343700557232 /* FCAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BB88C25F9343700557232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7BB8B325F9351C00557232 /* alert-round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert-round.png"; sourceTree = "<group>"; };
+		EA7BB8B425F9351C00557232 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EA7BB8B525F9351C00557232 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		EA7BB8B625F9351C00557232 /* close-round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-round.png"; sourceTree = "<group>"; };
+		EA7BB8B725F9351C00557232 /* checkmark-round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark-round.png"; sourceTree = "<group>"; };
+		EA7BB8B825F9351C00557232 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		EA7BB8BA25F9351C00557232 /* FCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCAlertView.m; sourceTree = "<group>"; };
+		EA7BB8BC25F9351C00557232 /* FCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCAlertView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,13 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				74A2636F01F000E634F9B225 /* Pods_FCAlertView_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7BB88625F9343700557232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +168,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FCAlertView */,
 				6003F5B5195388D20070C39A /* Tests */,
+				EA7BB88A25F9343700557232 /* FCAlertView */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				47667416C1187041B46C962D /* Pods */,
@@ -154,6 +180,7 @@
 			children = (
 				6003F58A195388D20070C39A /* FCAlertView_Example.app */,
 				6003F5AE195388D20070C39A /* FCAlertView_Tests.xctest */,
+				EA7BB88925F9343700557232 /* FCAlertView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -233,7 +260,52 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		EA7BB88A25F9343700557232 /* FCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BB8B225F9351C00557232 /* Assets */,
+				EA7BB8B925F9351C00557232 /* Classes */,
+				EA7BB88C25F9343700557232 /* Info.plist */,
+			);
+			path = FCAlertView;
+			sourceTree = "<group>";
+		};
+		EA7BB8B225F9351C00557232 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BB8B325F9351C00557232 /* alert-round.png */,
+				EA7BB8B425F9351C00557232 /* .gitkeep */,
+				EA7BB8B525F9351C00557232 /* heart.png */,
+				EA7BB8B625F9351C00557232 /* close-round.png */,
+				EA7BB8B725F9351C00557232 /* checkmark-round.png */,
+				EA7BB8B825F9351C00557232 /* star.png */,
+			);
+			name = Assets;
+			path = ../../FCAlertView/Assets;
+			sourceTree = "<group>";
+		};
+		EA7BB8B925F9351C00557232 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BB8BC25F9351C00557232 /* FCAlertView.h */,
+				EA7BB8BA25F9351C00557232 /* FCAlertView.m */,
+			);
+			name = Classes;
+			path = ../../FCAlertView/Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA7BB88425F9343700557232 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BB8C525F9351C00557232 /* FCAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* FCAlertView_Example */ = {
@@ -277,6 +349,24 @@
 			productReference = 6003F5AE195388D20070C39A /* FCAlertView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EA7BB88825F9343700557232 /* FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7BB89025F9343700557232 /* Build configuration list for PBXNativeTarget "FCAlertView" */;
+			buildPhases = (
+				EA7BB88425F9343700557232 /* Headers */,
+				EA7BB88525F9343700557232 /* Sources */,
+				EA7BB88625F9343700557232 /* Frameworks */,
+				EA7BB88725F9343700557232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCAlertView;
+			productName = FCAlertView;
+			productReference = EA7BB88925F9343700557232 /* FCAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -293,6 +383,11 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
+					EA7BB88825F9343700557232 = {
+						CreatedOnToolsVersion = 11.7;
+						DevelopmentTeam = G3A2KYKYBU;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "FCAlertView" */;
@@ -303,6 +398,9 @@
 				English,
 				en,
 				Base,
+				"zh-Hans",
+				ja,
+				"zh-Hant",
 			);
 			mainGroup = 6003F581195388D10070C39A;
 			productRefGroup = 6003F58B195388D20070C39A /* Products */;
@@ -311,6 +409,7 @@
 			targets = (
 				6003F589195388D20070C39A /* FCAlertView_Example */,
 				6003F5AD195388D20070C39A /* FCAlertView_Tests */,
+				EA7BB88825F9343700557232 /* FCAlertView */,
 			);
 		};
 /* End PBXProject section */
@@ -336,6 +435,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7BB88725F9343700557232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BB8BD25F9351C00557232 /* alert-round.png in Resources */,
+				EA7BB8C025F9351C00557232 /* close-round.png in Resources */,
+				EA7BB8BF25F9351C00557232 /* heart.png in Resources */,
+				EA7BB8BE25F9351C00557232 /* .gitkeep in Resources */,
+				EA7BB8C125F9351C00557232 /* checkmark-round.png in Resources */,
+				EA7BB8C225F9351C00557232 /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +563,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7BB88525F9343700557232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7BB8C325F9351C00557232 /* FCAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,6 +765,89 @@
 			};
 			name = Release;
 		};
+		EA7BB88E25F9343700557232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FCAlertView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FCAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA7BB88F25F9343700557232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = FCAlertView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FCAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -671,6 +874,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7BB89025F9343700557232 /* Build configuration list for PBXNativeTarget "FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7BB88E25F9343700557232 /* Debug */,
+				EA7BB88F25F9343700557232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
