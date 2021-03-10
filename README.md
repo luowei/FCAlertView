@@ -45,6 +45,11 @@ it, simply add the following line to your Podfile:
 pod 'FCAlertView'
 ```
 
+**Carthage**
+```ruby
+github "luowei/FCAlertView"
+```
+
 ### Manually
 
 Clone or Download this Repo. Then simply drag the folder ```FCAlertView``` to your Xcode project. Please make sure to drag the whole folder, which includes assets needed for some alert types.
